@@ -16,6 +16,7 @@ public class MainApp {
     	sM.save(new Student("Caius", "Claudius", "cars@gmail.com", "0354212345"));
 
     	sM.findAll().forEach(System.out::println);
+    	
     	context.close();
     }
 }
