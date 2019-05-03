@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class InputService implements UserInputService {
+public class ScannerInputService implements UserInputService {
 
 	private Scanner sc;
 	
 	@Autowired
-	public InputService(Scanner sc) {
+	public ScannerInputService(Scanner sc) {
 		this.sc = sc;
 	}
 
